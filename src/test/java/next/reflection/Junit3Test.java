@@ -1,6 +1,8 @@
 package next.reflection;
 
 public class Junit3Test {
+
+    @ElapsedTime
     public void test1()  {
         System.out.println("Running Test1");
     }
